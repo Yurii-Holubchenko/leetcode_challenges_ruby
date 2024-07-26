@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/root-equals-sum-of-children/description/
+# https://leetcode.com/problems/root-equals-sum-of-children/
 
 # Definition for a binary tree node.
 class TreeNode
@@ -20,6 +20,8 @@ end
 
 # @param {TreeNode} root
 # @return {Boolean}
+
+# Value switch solution
 def check_tree(root)
   root.val == root.left.val + root.right.val
 end

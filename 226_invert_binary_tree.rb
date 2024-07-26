@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/invert-binary-tree/description/
+# https://leetcode.com/problems/invert-binary-tree/
 
 # Definition for a binary tree node.
 class TreeNode
@@ -22,6 +22,8 @@ end
 
 # @param {TreeNode} root
 # @return {TreeNode}
+
+# Recursive solution
 def invert_tree(root)
   return unless root
 
