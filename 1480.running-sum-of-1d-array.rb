@@ -35,3 +35,11 @@ def running_sum(nums)
   sum = 0
   nums.map { |e| sum += e }
 end
+
+# Overwrite initial array solution
+def running_sum(nums)
+  nums.each_with_index do |_, i|
+    next if i.zero?
+    nums[i] += nums[i - 1]
+  end
+end
