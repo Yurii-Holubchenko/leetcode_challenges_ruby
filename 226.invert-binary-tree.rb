@@ -11,9 +11,9 @@ class TreeNode
 end
 
 # Test cases:
-# [4,2,7,1,3,6,9]
-# [2,1,3]
-# []
+# root = [4,2,7,1,3,6,9]
+# root = [2,1,3]
+# root = []
 
 # Expected results:
 # [4,7,2,9,6,3,1]

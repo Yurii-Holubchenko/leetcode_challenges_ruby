@@ -11,8 +11,8 @@ class TreeNode
 end
 
 # Test cases:
-# [10,4,6]
-# [5,3,1]
+# root = [10,4,6]
+# root = [5,3,1]
 
 # Expected results
 # true
