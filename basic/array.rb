@@ -10,7 +10,7 @@ def reverse_concat(arr1, arr2)
 
   puts "Reverse concat arrays: #{arr}"
 end
-# reverse_concat([4, 5], [1, 2, 3])
+reverse_concat([4, 5], [1, 2, 3])
 
 # Appending element to the array
 def append_element(arr1, element)
@@ -24,7 +24,7 @@ def append_element(arr1, element)
 
   puts "Append new element #{element} to #{arr1}: #{arr}"
 end
-# append_element([1, 2, 3], 4)
+append_element([1, 2, 3], 4)
 
 # Appending array to the array
 def append_array(arr1, arr2)
@@ -42,10 +42,10 @@ def append_array(arr1, arr2)
 
   puts "Append new array #{arr2} to #{arr1}: #{arr}"
 end
-# append_array([1, 2, 3], [4, 5])
+append_array([1, 2, 3], [4, 5])
 
 # Insert element to array in given index
-def insert_element(arr1, index, element)
+def insert_element_in_index(arr1, index, element)
   length1 = arr1.length
   arr = Array.new(length1 + 1)
 
@@ -60,10 +60,10 @@ def insert_element(arr1, index, element)
 
   puts "Insert element #{element} to #{arr1} index #{index}: #{arr}"
 end
-# insert_element([1, 2, 3], 1, 5)
+insert_element_in_index([1, 2, 3], 1, 5)
 
 # Insert array to array after given index
-def insert_element(arr1, index, arr2)
+def insert_array_after_index(arr1, index, arr2)
   length1 = arr1.length
   length2 = arr2.length
   length = length1 + length2
@@ -82,4 +82,4 @@ def insert_element(arr1, index, arr2)
 
   puts "Insert array #{arr2} to #{arr1} after given index #{index}: #{arr}"
 end
-insert_element([1, 7, 8, 9], 2, [3, 4])
+insert_array_after_index([1, 7, 8, 9], 2, [3, 4])
